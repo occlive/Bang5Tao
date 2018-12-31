@@ -1,0 +1,680 @@
+/*
+* @Author: DELL
+* @Date:   2018-12-22 13:57:12
+* @Last Modified by:   DELL
+* @Last Modified time: 2018-12-24 20:44:06
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li,ol{
+	list-style:none ;
+}
+body{
+	background-color: rgb(245, 246, 247);
+	height: 1300px;
+}
+#thetop{
+	width: 100%;
+	height: 170px;
+	background-color: white;
+	float: left;
+}
+#topnext{
+	width: 1180px;
+	height: 130px;
+	margin: 0 auto;
+}
+#main{
+	width: 100%;
+	height: 1125px;
+	float: left;
+}
+
+#mainnext{
+	width: 1180px;
+	height: 1125px;
+	margin: 0 auto;
+}
+
+#top{
+	height: 130px;
+	width: 1180px;
+	background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 10;
+}
+#bang5mai{
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+
+#load{
+	width: 930px;
+	height: 25px;
+	margin-bottom: 30px;
+	float: left;
+	padding-top: 5px;
+}
+#load a{
+	margin-right: 9px;
+}
+
+#sreach{
+	width: 930px;
+	height: 45px;
+	margin-bottom: 8px;
+	float: left;
+}
+
+#kid{
+	width: 930px;
+	height: 16px;
+	float: left;
+	font-size: 13px;
+}
+
+#kid ul>li{
+	display: inline;
+	padding: 0 6px 0 6px;
+	border-right: 1px solid rgb(151, 153, 145);
+	text-align: center;
+}
+
+.fonttype1{
+	font-size: 14px;
+	color: rgb(151, 153, 145);
+	margin: 5px 0 20px 0;
+}
+
+.fonttype2{
+	color: red;
+}
+
+.fonttype3{
+	font-size: 14px;
+	color: rgb(151, 153, 145);
+}
+
+.fonttype4{
+	color: rgb(170, 170, 210);
+}
+
+.fonttype5{
+	font-size: 16px;
+	color:rgb(151, 153, 145);
+}
+
+.fonttype6{
+	font-size: 14px;
+	font-weight: bolder;
+	color: rgb(255, 77, 4);
+}
+.fonttype7{
+	font-size:14px;
+}
+.fonttype8{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+}
+#sreinput{
+	width: 500px;
+	height: 40px;
+	border-radius: 5px 0 0 5px; 
+	border: 3px solid rgb(254, 108, 0);	
+	float: left;
+}
+
+#butt{
+	height: 45px;
+	width: 85px;
+	background-color: rgb(254, 108, 0);
+	color: white;
+	border-radius: 0 5px 5px 0;
+	font-size: 16px;
+	float: left;
+	border: 0;
+}
+
+.all{
+	width: 600px;
+	height: 40px;
+	float: left;
+}
+
+#relation{
+	width: 260px;
+	height: 40px;
+	margin-left: 60px;
+	float: left;
+}
+#relation > div{
+	width: 84px;
+	height: 40px;
+	border: 1px solid rgb(170, 170, 210);
+	border-radius: 5px 5px 5px 5px;
+	float: left;
+}
+#relation > div >div{
+	margin: 0 auto;
+	margin-top: 3px;
+	
+}
+#qq{
+	
+}
+
+
+#load a>div{
+	margin-right: 15px;
+}
+#qq div{
+	margin-left: 200px;
+}
+
+#question{
+	color: white; 
+	background-color: rgb(255, 77, 4);
+}
+#question > div{
+	padding-top: 7px;
+}
+#type{
+	height: 40px;
+	width: 100%;
+	float: left;
+	background-color: black;
+}
+#firPage{
+	height: 40px;
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#firPage div{
+	float: left;
+}
+#pageOne{
+	background-color: rgb(254, 13, 74);
+	width: 100px;
+	height: 40px;
+}
+#firPage > div > ul{
+		display: inline;
+		text-align: center;
+}
+#firPage > div > ul > a > li{
+	padding-top: 10px;
+	margin-right:27px ;
+	width: 100px;
+	height: 40px;
+	float: left;
+	font-weight: bold;
+} 
+
+
+#sub{
+	width: 100%;
+	height: 780px;
+	float: left;
+}
+#sub > div{
+	float: left;
+}
+#sub1{	
+	height: 40px;
+	width: 100%;
+	font-size: 12px;
+	overflow: hidden;
+}
+#sub1 p{
+	margin-top: 10px;
+}
+#bigmirror{
+	height: 635px;
+	width: 1000px;
+	background-color: white;
+}
+#box1{
+	height: 615px;
+	width: 410px;
+	float: left;
+	position: relative;
+	margin: 20px 20px 0 20px;
+}
+#penwu{
+	height: 410px;
+	width: 410px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid gray;
+	overflow: hidden;
+	float: left;
+}
+#box{
+	height: 410px;
+	width: 410px;
+	float: left;
+}
+#bigPenwu{
+	position: absolute;
+	right: -410px;
+	display: none;
+	width: 410px;
+	height: 410px;
+	overflow: hidden;
+	border: 1px dotted purple;
+}
+#slider{
+		width:210px;
+		height:210px;
+		position:absolute;
+		left:0;
+		top:0;
+		background:#CCC;
+		opacity:0.4;
+		cursor: move;
+		display:none; 
+		filter:alpha(opacity=40);
+}
+
+.Bigpic{
+ 	left: 0;
+ 	top: 0;
+ 	position: absolute;
+}
+
+#selepic{
+	width: 410px;
+	height: 65px;
+	float: left;
+	margin-top: 25px;
+}
+#lsp{
+	width: 25px;
+	height: 65px;
+	float: left;
+	cursor: pointer;
+}
+
+#rsp{
+	width: 25px;
+	height: 65px;
+	float: right;
+	cursor: pointer;
+}
+#smallpic{
+}
+.smp1{
+	width: 55px;
+	height: 55px;
+	border: 2px solid rgb(255, 77, 4);
+}
+#smallpic > ul > li {
+	margin-top: 3px;
+	display: inline;
+	float: left;
+}
+
+#box2{
+	height: 635px;
+	width: 550px;
+	float: left;
+	padding-top: 20px;
+}
+#box2 > div{
+	float: left;
+}
+#buytext{
+	height: 200px;
+	width: 500px;
+}
+.xiangou{
+	margin: 10px 0 10px 0;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+#price{
+	width: 500px;
+	height: 25px;
+	font-size: 12px;
+	margin-left: 20px;
+	float: left;
+}
+#price > ul > li{
+	display: inline;
+	margin-right: 20px;
+}
+#nowprice{
+	font-size: 16px;
+	color: rgb(255, 77, 4);
+	margin-left: 30px;
+}
+#bfprice{
+	text-decoration: line-through;
+}
+#buyselect{
+	width: 500px;
+	height: 195px;
+}
+#selectmltext{
+	font-size: 12px;
+	margin-left: 120px;
+}
+#selectml{
+	font-size: 16px;
+	color: rgb(255, 144, 3);
+	margin-left: 20px;
+}
+#ml{
+	width: 500px;
+	height: 50px;
+	float: left;
+	font-size: 13px;
+}
+#ml>div{
+	float: left;
+}
+
+#ml150{
+	margin-left: 30px;
+	width: 60px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+#ml200{
+	width: 60px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.mlb{
+	border: 1px solid rgb(255, 7, 84);
+	background-image: url(img/duigou.png);
+	background-repeat: no-repeat;
+	background-position:bottom right;
+}
+
+#numselect{
+	width: 500px;
+	height: 50px;
+	float: left;
+	font-size: 13px;
+}
+#numselect > ul > li{
+	display: inline;
+	width: 120px;
+	height: 30px;
+	float: left;
+}
+#lnum{
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+
+}
+#rnum{
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+}
+#num{
+	width: 50px;
+	height: 28px;
+	float: left;
+	text-align: center;
+}
+#bfnum{
+	margin-top: 5px;
+}
+#afnum{
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+#allnum{
+	width: 500px;
+	height: 90px;
+	float: left;
+}
+
+#buybutt{
+	width: 500px;
+	height: 40px;
+}
+#nowbuy{
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	float: left;
+	background-color: white;
+	border: 1px solid rgb(255, 7, 84);
+	color: rgb(255, 7, 84);
+	border-radius: 7px;
+	cursor: pointer;
+}
+#cartadd{
+	margin-left: 25px;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;	
+	float: left;
+	border: 0;
+	background-color: rgb(255, 7, 84);
+	color: white;
+	border-radius: 7px;
+	cursor: pointer;
+}
+#poptext{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	z-index: 20;
+	background-color: rgb(151, 153, 145);
+	visibility: hidden;
+}
+#conback{
+	position: fixed;
+	opacity: 1;
+	z-index: 21;
+	top: 220px;
+	left: 480px;
+	width: 400px;
+	height: 230px;
+	background-color: white;
+	border: 2px solid gray;
+	visibility: hidden;
+}
+#bkselect{
+	width: 500px;
+	height: 40px;
+}
+#bkbuff{
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	float: left;
+	margin-left: 30px;
+	background-color: white;
+	border: 1px solid rgb(255, 7, 84);
+	color: rgb(255, 7, 84);
+	border-radius: 7px;
+	cursor: pointer;
+}
+#gobuy{
+	margin-left: 25px;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;	
+	float: left;
+	border: 0;
+	background-color: rgb(255, 7, 84);
+	color: white;
+	border-radius: 7px;
+	cursor: pointer;
+}
+#X{
+	cursor: pointer;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+#subpic{
+	height: 635px;
+	width: 180px;
+}
+#sub2{
+	height: 105px;
+	width: 1181px;
+}
+#othersub{
+	width: 100%;
+	height: 180px;
+	float: left;
+}
+#logB{
+	width: 150px;
+	height: 180px;
+	float: left;
+}
+#otherlist{
+	width: 1030px;
+	height: 180px;
+	float: left;
+	border-bottom: 1px solid rgb(151, 153, 145);
+}
+#otherlist > ul{
+	margin-left: 80px;
+}
+#otherlist > img{
+	margin-top: 30px;
+}
+#otherlist > ul > li{
+	width: 70px;
+	height: 120px;
+	margin: 30px 65px 0 0;
+	float: left;
+}
+#otherlist > ul > li > ul > li{
+	font-size: 12px;
+	color: rgb(102, 101, 96);
+	line-height: 2em;
+}
+.titl{
+	font-size: 16px;
+	color: black;
+}
+
+#end{
+	height: 165px;
+	width: 1180px;
+	float: left;
+}
+
+#endtext{
+	height: 110px;
+	width: 1180px;
+	float: left;
+	text-align: center;
+}
+#endtext > p{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+	margin-bottom: 10px;
+}
+#endtext > ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#endtext > ul > li{
+	display: inline;
+	font-size: 14px;
+	color: rgb(102, 101, 96);
+	padding-right: 7px;
+	margin-left: 3px;
+	border-right: 1px solid rgb(151, 153, 145);
+}
+
+#endpic{
+	height: 55px;
+	width: 1180px;
+	float: left;
+	text-align: center;
+}
+
+#endpic > ul > li{
+	display: inline;
+}
+a.fir:link{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+}
+a.fir:visited{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+}
+a.fir:hover{
+	font-size: 12px;
+	color: rgb(255, 77, 4);;
+}
+a.fir:active{
+	font-size: 12px;
+	color: rgb(255, 77, 4);;
+}
+
+
+a.sec:link{
+	color: black;
+}
+a.sec:visited{
+	color: black;
+}
+a.sec:hover4
+	color: rgb(255, 77, 4);
+}
+
+a.third:link{
+	color: rgb(102, 101, 96);
+}
+a.third:visited{
+	color: rgb(102, 101, 96);
+}
+a.third:hover{
+	color: rgb(102, 101, 96);
+}
+a.four:link{
+	font-size: 14px;
+	color: white;
+}
+a.four:visited{
+	font-size: 14px;
+	color: white;
+}
+a.four:hover{
+	font-size: 14px;
+	color: white;
+}
+a.four:active{
+	font-size: 14px;
+	color: white;
+}

@@ -1,0 +1,637 @@
+/*
+* @Author: DELL
+* @Date:   2018-12-18 19:08:09
+* @Last Modified by:   DELL
+* @Last Modified time: 2018-12-24 18:19:50
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li,ol{
+	list-style:none ;
+}
+body{
+	background-color: rgb(245, 246, 247);
+
+}
+#sele{
+
+}
+#thetop{
+	width: 100%;
+	height: 177px;
+	background-color: white;
+	float: left;
+}
+#topnext{
+	width: 1180px;
+	height: 170px;
+	margin: 0 auto;
+}
+#main{
+	width: 100%;
+	height: 900px;
+	float: left;
+}
+
+#mainnext{
+	width: 1180px;
+	height: 900px;
+	margin: 0 auto;
+}
+
+#top{
+	height: 130px;
+	width: 1180px;
+	background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+	z-index: 10;
+}
+#bang5mai{
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+
+#load{
+	width: 930px;
+	height: 25px;
+	margin-bottom: 30px;
+	float: left;
+	padding-top: 5px;
+}
+#load a{
+	margin-right: 9px;
+}
+
+#sreach{
+	width: 930px;
+	height: 45px;
+	margin-bottom: 8px;
+	float: left;
+}
+
+#kid{
+	width: 930px;
+	height: 16px;
+	float: left;
+	font-size: 13px;
+}
+
+#kid ul>li{
+	display: inline;
+	padding: 0 6px 0 6px;
+	border-right: 1px solid rgb(151, 153, 145);
+	text-align: center;
+}
+
+.fonttype1{
+	font-size: 14px;
+	color: rgb(151, 153, 145);
+	margin: 5px 0 20px 0;
+}
+
+.fonttype2{
+	color: red;
+}
+
+.fonttype3{
+	font-size: 14px;
+	color: rgb(151, 153, 145);
+}
+
+.fonttype4{
+	color: rgb(170, 170, 210);
+}
+
+.fonttype5{
+	font-size: 16px;
+	color:rgb(151, 153, 145);
+}
+
+.fonttype6{
+	font-size: 14px;
+	font-weight: bolder;
+	color: rgb(255, 77, 4);
+}
+.fonttype7{
+	font-size:14px;
+}
+.fonttype8{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+}
+.fonttype9{
+	color: white;
+	font-size: 16px;
+}
+#sreinput{
+	width: 500px;
+	height: 40px;
+	border-radius: 5px 0 0 5px; 
+	border: 3px solid rgb(254, 108, 0);	
+	float: left;
+}
+
+#butt{
+	height: 45px;
+	width: 85px;
+	background-color: rgb(254, 108, 0);
+	color: white;
+	border-radius: 0 5px 5px 0;
+	font-size: 16px;
+	float: left;
+	border: 0;
+	cursor: pointer;
+}
+
+.all{
+	width: 600px;
+	height: 40px;
+	float: left;
+}
+
+#relation{
+	width: 260px;
+	height: 40px;
+	margin-left: 60px;
+	float: left;
+}
+#relation > div{
+	width: 84px;
+	height: 40px;
+	border: 1px solid rgb(170, 170, 210);
+	border-radius: 5px 5px 5px 5px;
+	float: left;
+}
+#relation > div >div{
+	margin: 0 auto;
+	margin-top: 3px;
+	
+}
+#qq{
+	
+}
+
+
+#load a>div{
+	margin-right: 15px;
+}
+#qq div{
+	margin-left: 200px;
+}
+
+#question{
+	color: white; 
+	background-color: rgb(255, 77, 4);
+}
+#question > div{
+	padding-top: 7px;
+}
+#type{
+	height: 40px;
+	width: 100%;
+	margin-top: 5px;
+}
+#alltype{
+	width: 170px;
+	height: 40px;
+	background-color: rgb(255, 77, 4);
+	float: left;
+	text-align: center;
+}
+
+#type > div > div{
+	padding-top: 10px;
+}
+
+#type > div > ul{
+	padding-top: 5px;
+}
+
+#type > div > ul > a > li{
+	display: inline;
+	font-size: 16px;
+	margin-left: 55px;
+	
+}
+
+#line{
+	height: 0px;
+	width: 1345px;
+	margin-left: -84px;
+	border:1px solid rgb(255, 77, 4) ;
+	
+}
+
+#sub{
+	width: 100%;
+	height: 545px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.subone{
+	width: 170px;
+	height: 550px;
+	float: left;
+}
+
+#kindbox{
+	height: 425px;
+	width: 170px;
+	border-bottom: 1px solid rgb(255, 170, 22);
+}
+#blackbox{
+	width: 25px;
+	height: 425px;
+	float: left;
+	background-color: rgb(76, 76, 74);
+	text-align: center;
+}
+#blackbox p {
+	line-height: 1.5em;
+	margin-top: 25px;
+	font-size: 16px;
+	color: rgb(255, 77, 75);
+}
+#kindtext{
+	width: 145px;
+	height: 425px;
+	float: left;
+}
+#kindtext > ul > li{
+	width: 25px;
+	height: 400px;
+	margin-left: 5px;
+	margin-top: 12px;
+	display: inline-block;
+}
+#kindtext > ul > li > ul > li{
+	font-size: 12px;
+	line-height: 2.6em;
+}
+#whatis{
+	height: 125px;
+	width: 170px;
+}
+#whatis ul{
+	float: left;
+	margin: 10px 0 0  10px;
+}
+#whatis ul li{
+	font-size: 12px;
+	color: rgb(133, 93, 56);
+	line-height: 2.5em;
+}
+
+
+
+
+.subtow{
+	width: 800px;
+	height: 545px;
+	float: left;
+}
+#mitborder{
+	height: 363px;
+	width: 800px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+#mitborder > span{
+	display: block;
+	width: 24px;
+	height: 62px;
+	top: 150px;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+}
+.nav >li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: rgb(230, 230, 230);
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	z-index: 5;
+	text-align: center;
+}
+.nav .act{
+	background-color: rgb(255, 77, 4);
+}
+#slider{
+	height: 363px;
+	width: 6400px;
+	left: -800px;
+	position: absolute;
+}
+
+.banner{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+
+#goods{
+	height: 185px;
+	width: 800px;
+	float: left;
+	border: 2px solid orange;
+	border-bottom: 0px;
+}
+#goods ul li{
+	display: inline;
+	margin-right: -5px;
+}
+
+
+
+.subthree{
+	width: 210px;
+	height: 550px;
+	float: left;
+}
+#anno{
+	width: 210px;
+	height: 365px;
+	float: left;
+	background-color: white;
+	border-left: 1px solid rgb(255, 77, 4); 
+}
+#annotitle{
+	width: 210px;
+	height: 45px;
+	float: left;
+}
+
+#annotext{
+	width: 210px;
+	height: 320px;
+	float: left;
+	background-color: white;
+	border-top: 1px solid rgb(210, 210, 210);
+	border-bottom: 1px solid rgb(210, 210, 210);
+	overflow: hidden;
+}
+#annotext ul li{
+	font-size: 13px;
+	font-weight: bolder;
+	color: rgb(255, 77, 4);
+	line-height: 2.5em;
+	margin-left: 10px;
+}
+
+#kuaixun{
+	float: left;
+	margin: 10px 0 0 20px;
+}
+#kuaixun > ul > li{
+	margin-left: 10px;
+	display: inline;
+	font-size: 15px ;
+	color: rgb(255, 77, 4);
+	font-weight: bolder;
+}
+
+#jiantou{
+	float: right;
+	margin:10px 15px 0 0;
+
+}
+#payphone{
+	width: 210px;
+	height: 185px;
+	float: left;
+}
+#payphone div{
+	margin: 10px 0 0 15px;
+}
+#phonenum{
+	width: 130px;
+	height: 25px;
+	font-size: 16px;
+	margin: 10px 10px 10px 0; 
+	color: rgb(151, 153, 145);
+}
+#phonemoney{
+	width: 60px;
+	height: 18px;
+	margin-bottom: 10px;
+}
+
+#pay{
+	width: 180px;
+	height: 25px;
+	background-color: rgb(255, 77, 4);
+	border-radius: 5px 5px 5px 5px;
+	border: 0;
+	color: white;
+	cursor: pointer;
+}
+
+
+#othersub{
+	width: 100%;
+	height: 180px;
+}
+#logB{
+	width: 150px;
+	height: 180px;
+	float: left;
+}
+#otherlist{
+	width: 1030px;
+	height: 180px;
+	float: left;
+	border-bottom: 1px solid rgb(151, 153, 145);
+}
+#otherlist > ul{
+	margin-left: 80px;
+}
+#otherlist > img{
+	margin-top: 30px;
+}
+#otherlist > ul > li{
+	width: 70px;
+	height: 120px;
+	margin: 30px 65px 0 0;
+	float: left;
+}
+#otherlist > ul > li > ul > li{
+	font-size: 12px;
+	color: rgb(102, 101, 96);
+	line-height: 2em;
+}
+.titl{
+	font-size: 16px;
+	color: black;
+}
+
+#end{
+	height: 165px;
+	width: 1180px;
+}
+
+#endtext{
+	height: 110px;
+	width: 1180px;
+	float: left;
+	text-align: center;
+}
+#endtext > p{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+	margin-bottom: 10px;
+}
+#endtext > ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#endtext > ul > li{
+	display: inline;
+	font-size: 14px;
+	color: rgb(102, 101, 96);
+	padding-right: 7px;
+	margin-left: 3px;
+	border-right: 1px solid rgb(151, 153, 145);
+}
+
+#endpic{
+	height: 55px;
+	width: 1180px;
+	float: left;
+	text-align: center;
+}
+
+#endpic > ul > li{
+	display: inline;
+}
+
+
+#leftfour{
+	width: 125px;
+	height: 540px;
+	position: fixed;
+	top: 70px;
+	/*right: -85px;*/
+	right: 0px;
+	overflow: hidden;
+}
+
+#xb{
+	width: 125px;
+	height: 110px;
+	right: -85px;
+	position: absolute;
+}
+#xbzixun{
+	margin-top: -4px;
+	margin-left: 2px;
+}
+#youhui{
+	width: 125px;
+	height: 140px;
+	position: absolute;
+	right: -85px;
+	top: 115px;
+	background-color: rgb(255, 146, 96);
+}
+#app{
+	width: 125px;
+	height: 140px;
+	position: absolute;
+	right: -85px;
+	top: 260px;
+	background-color: rgb(255, 146, 96);
+}
+#app1{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+#app2{
+	margin-bottom: 5px;
+	display: none;
+}
+#cart{
+	width: 125px;
+	height: 140px;
+	position: absolute;
+	right: -85px;
+	top: 405px;
+	float: left;
+}
+
+
+
+
+
+
+
+a.fir:link{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+}
+a.fir:visited{
+	font-size: 12px;
+	color: rgb(151, 153, 145);
+}
+a.fir:hover{
+	font-size: 12px;
+	color: rgb(255, 77, 4);
+}
+a.fir:active{
+	font-size: 12px;
+	color: rgb(255, 77, 4);
+}
+
+
+a.sec:link{
+	color: black;
+}
+a.sec:visited{
+	color: black;
+}
+a.sec:hover{
+	color: rgb(255, 77, 4);
+}
+
+a.third:link{
+	color: rgb(102, 101, 96);
+}
+a.third:visited{
+	color: rgb(102, 101, 96);
+}
+a.third:hover{
+	color: rgb(102, 101, 96);
+}
+
+a.four:link{
+	color: rgb(255, 77, 4);
+}
+a.four:visited{
+	color: rgb(255, 77, 4);
+}
+a.four:hover{
+	color: rgb(255, 77, 4);
+}
