@@ -2,7 +2,7 @@
 * @Author: DELL
 * @Date:   2018-12-18 19:29:25
 * @Last Modified by:   DELL
-* @Last Modified time: 2018-12-24 11:02:33
+* @Last Modified time: 2019-01-03 15:20:58
 */
 window.onload = function(){
 	textroll();
@@ -50,6 +50,7 @@ function animate(obj,json,callback){
 		}
 		if(isStop){
 			clearInterval(obj.timer);
+			callback&&callback();
 		}
 	}, 30)
 }

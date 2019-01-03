@@ -206,8 +206,8 @@
 							<div id="banner" class="banner"><a href="#"><img src="img/bann6.png" alt=""></a></div>
 							<div id="banner" class="banner"><a href="#"><img src="img/bann1.jpeg" alt=""></a></div>
 						</div>
-						<span id="left" style="width: 60px;height: 60px;background: url(img/btn.gif) 0 0;"></span>
-						<span id="right" style="width: 60px;height: 60px;background: url(img/btn.gif) 0 60px;"></span>
+						<span id="left" style="width: 60px;height: 60px;background: url(img/btn.gif) 0 0;" onclick="prev()"></span>
+						<span id="right" style="width: 60px;height: 60px;background: url(img/btn.gif) 0 60px;" onclick="next()"></span>
 						<ul class="nav" id="nav">
 							<li class="act">1</li>
 							<li>2</li>
@@ -469,8 +469,6 @@
 			animate(right,{opacity:0})
 			timer = setInterval(next, 3000);
 		}
-		right.onclick = next;
-		left.onclick = prev;
 		function next(){
 			if(Moving){
 				return;
