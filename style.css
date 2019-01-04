@@ -2,7 +2,7 @@
 * @Author: DELL
 * @Date:   2018-12-18 19:08:09
 * @Last Modified by:   DELL
-* @Last Modified time: 2018-12-24 18:19:50
+* @Last Modified time: 2019-01-04 18:14:34
 */
 *{
 	margin: 0;
@@ -557,6 +557,31 @@ body{
 	top: 115px;
 	background-color: rgb(255, 146, 96);
 }
+
+#youhui > img{
+	float: left;
+}
+#youhui > div {
+	float: left;
+}
+
+#yhload{
+	padding-top: 40px;
+	width: 60px;
+	height: 140px;
+	display: none;
+	font-size: 14px;
+}
+#yhload > input{
+	margin-top: 10px;
+	width: 30px;
+	height: 20px;
+	background-color: rgb(255, 146, 96);
+	color: white;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size: 10px;
+}
 #app{
 	width: 125px;
 	height: 140px;
@@ -570,7 +595,8 @@ body{
 	margin-left: 10px;
 }
 #app2{
-	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-top: -5px;
 	display: none;
 }
 #cart{
