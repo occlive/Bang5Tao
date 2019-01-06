@@ -520,47 +520,7 @@
 		timer = setInterval(next,3000);
 
 
-		var xb = document.getElementById("xb");
-		var youhui = document.getElementById("youhui");
-		var app = document.getElementById("app");
-		var app1 = document.getElementById("app1");
-		var app2 = document.getElementById("app2");
-		var cart = document.getElementById("cart");
-		var yhload = document.getElementById("yhload");
-
-		cart.onmouseenter = function(){
-			leftmove(cart,{right:0});
-		}
-		app.onmouseenter = function(){
-			app1.style.display = "none";
-			app2.style.display = "inline";
-			leftmove(app,{right:0});
-		}
-		youhui.onmouseenter = function(){
-			yhload.style.display = "inline";
-			leftmove(youhui,{right:0});
-		}
-		xb.onmouseenter = function(){
-			leftmove(xb,{right:0});
-		}
-
-		cart.onmouseleave = function(){
-
-			leftmove(cart,{right:-85});
-		}
-		app.onmouseleave = function(){
-			app1.style.display = "inline";
-			app2.style.display = "none";
-			leftmove(app,{right:-85});
-		}
-		youhui.onmouseleave = function(){
-			yhload.style.display = "none";
-			leftmove(youhui,{right:-85});
-		}
-		xb.onmouseleave = function(){
 		
-			leftmove(xb,{right:-85});
-		}
 
 
 		
